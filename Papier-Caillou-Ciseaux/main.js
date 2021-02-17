@@ -58,7 +58,7 @@ function playGame(e) {
     //Si le résultat est égale à Player on rajoute plus 1 au score du player
     if(result === 'Player') {
         //Affichage du resultat
-        result += " gagné !";
+        result += " a gagné !";
 
         //+1 à player
         score[0]++;
@@ -67,7 +67,7 @@ function playGame(e) {
     //Si le résultat est égale à Ordinateur on rajoute plus 1 au score du ordinateur
     if(result === 'Ordinateur') {
         //Affichage du resultat
-        result += " gagné !";
+        result += " a gagné !";
 
         //+1 à ordinateur
         score[1]++;
