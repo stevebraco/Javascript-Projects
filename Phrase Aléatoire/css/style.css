@@ -1,0 +1,17 @@
+main{
+    text-align: center;
+    
+}
+
+#quote {
+    font-size: 2rem;
+}
+
+#quote::before{
+    content: url("../img/quotes.png");
+    vertical-align: super;
+}
+.phrases{
+    width: 70%;
+    margin: 3rem auto;
+}
